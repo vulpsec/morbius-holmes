@@ -5,7 +5,7 @@ Bir isim ve soyisim üzerinden instagram arayı, nick ile de diğer sosyal medya
 ## İndirme 
 
 ```bash
-git clone 'https://github.com/morbius-os/morbius-holmes
+git clone https://github.com/morbius-os/morbius-holmes
 
 cd morbius-holmes
 
