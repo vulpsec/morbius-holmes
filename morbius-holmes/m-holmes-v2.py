@@ -63,10 +63,23 @@ def insta_ara(ğ):
       print('Hosca kal reis, kolay gelsin')
       time.sleep(3)
       sys.exit()
-
+        
+def face_ara(ğ):
+    curl = 'https://facebook.com/'+ ğ + '/'
+    try :
+         openurl = urllib.request.urlopen(curl)
+         print("_____________________________________________________________")
+         print("                                                             ")                                                                                 print("\033[92mŞüphelinin Facebook'u bu olabilir: "+curl             )
+         print("_____________________________________________________________")
+    except urllib.error.URLError as msg :
+         pass
+    except KeyboardInterrupt:
+      print('Hosca kal reis, kolay gelsin')
+      time.sleep(3)
+      sys.exit()
 
 def ara(ğ):
-     hesaplar = ['https://www.facebook.com/', "https://www.twitter.com/","https://www.twitter.com/","https://www.youtube.com/","https://plus.google.com/","https://www.reddit.com/user/", "https://www.pinterest.com/", "https://www.github.com/","https://www.flickr.com/people/","https://steamcommunity.com/id/","https://vimeo.com/","https://soundcloud.com/", "https://disqus.com/", "https://medium.com/@","https://vk.com/", "https://about.me/", "https://imgur.com/user/", "https://flipboard.com/","https://slideshare.net/","https://fotolog.com/", "https://open.spotify.com/user/","https://www.mixcloud.com/","https://www.scribd.com/","https://www.badoo.com/en/","https://www.patreon.com/","https://bitbucket.org/","https://www.dailymotion.com/","https://www.etsy.com/shop/","https://cash.me/","https://www.behance.net/","https://www.goodreads.com/","https://www.instructables.com/member/","https://keybase.io/","https://kongregate.com/accounts/","https://angel.co/","https://last.fm/user/","https://dribbble.com/","https://www.codecademy.com/","https://en.gravatar.com/","https://pastebin.com/u/","https://foursquare.com/","https://www.roblox.com/user.aspx?username=","https://www.gumroad.com/","https://www.wattpad.com/user/","https://www.canva.com/","https://creativemarket.com/","https://www.trakt.tv/users/","https://500px.com/","https://buzzfeed.com/","https://tripadvisor.com/members/","https://houzz.com/user/","https://blip.fm/","https://www.wikipedia.org/wiki/User:","https://news.ycombinator.com/user?id=","https://www.codementor.io/","https://www.reverbnation.com/","https://www.designspiration.net/","https://www.bandcamp.com/","https://www.colourlovers.com/love/","https://www.ifttt.com/p/","https://www.ebay.com/usr/","https://www.okcupid.com/profile/","https://www.trip.skyscanner.com/user/","https://ello.co/","https://tracky.com/user/"]
+     hesaplar = ['https://www.facebook.com/', "https://1000kitap.com/","https://www.twitter.com/","https://www.twitter.com/","https://www.youtube.com/","https://plus.google.com/","https://www.reddit.com/user/", "https://www.pinterest.com/", "https://www.github.com/","https://www.flickr.com/people/","https://steamcommunity.com/id/","https://vimeo.com/","https://soundcloud.com/", "https://disqus.com/", "https://medium.com/@","https://vk.com/", "https://about.me/", "https://imgur.com/user/", "https://flipboard.com/","https://slideshare.net/","https://fotolog.com/", "https://open.spotify.com/user/","https://www.mixcloud.com/","https://www.scribd.com/","https://www.badoo.com/en/","https://www.patreon.com/","https://bitbucket.org/","https://www.dailymotion.com/","https://www.etsy.com/shop/","https://cash.me/","https://www.behance.net/","https://www.goodreads.com/","https://www.instructables.com/member/","https://keybase.io/","https://kongregate.com/accounts/","https://angel.co/","https://last.fm/user/","https://dribbble.com/","https://www.codecademy.com/","https://en.gravatar.com/","https://pastebin.com/u/","https://foursquare.com/","https://www.roblox.com/user.aspx?username=","https://www.gumroad.com/","https://www.wattpad.com/user/","https://www.canva.com/","https://creativemarket.com/","https://www.trakt.tv/users/","https://500px.com/","https://buzzfeed.com/","https://tripadvisor.com/members/","https://houzz.com/user/","https://blip.fm/","https://www.wikipedia.org/wiki/User:","https://news.ycombinator.com/user?id=","https://www.codementor.io/","https://www.reverbnation.com/","https://www.designspiration.net/","https://www.bandcamp.com/","https://www.colourlovers.com/love/","https://www.ifttt.com/p/","https://www.ebay.com/usr/","https://www.okcupid.com/profile/","https://www.trip.skyscanner.com/user/","https://ello.co/","https://tracky.com/user/"]
      for i in hesaplar:
        url = i+ğ+'/'
        try:
@@ -97,13 +110,20 @@ nick = input(f'{Beyaz}Hedefin Kullandığı/Kullanması Muhtemel Nick: {Yeşil}'
 
 print('\n')
 print(f'{Beyaz}{Kalın}İnstagram:{Yeşil}')
-insta_list = [isim+'.'+soyisim, isim +'_'+ soyisim, isim + soyisim, nick,'_'+ isim + soyisim+'_', isim+ soyisim, isim + soyisim + 'official', 'official' + isim, 'official' + soyisim, 'official' + soyisim + isim, nick , isim + '.' + soyisim + 'official',isim + '_' + soyisim + 'official' ,'official' + isim, 'official' + soyisim, 'official' + soyisim + isim ]
+userlist = [isim+'.'+soyisim, isim +'_'+ soyisim, isim + soyisim, nick,'_'+ isim + soyisim+'_', isim+ soyisim, isim + soyisim + 'official', 'official' + isim, 'official' + soyisim, 'official' + soyisim + isim, nick , isim + '.' + soyisim + 'official',isim + '_' + soyisim + 'official' ,'official' + isim, 'official' + soyisim, 'official' + soyisim + isim ]
 
 print(f"{Beyaz}======================================================================")
-for i in insta_list:
+print('\n')
+print(f'{Beyaz}İnstagram:{Yeşil}')
+for i in userlist:
         insta_ara(i)
-
-hızlı_ani(f'{Beyaz}{Kalın}İnstagram Hariç Diğer Hesaplar:{Bitir}')
-
-print(f"{Beyaz}======================================================================")
-ara(nick)
+        
+print('\n')
+print(f'{Beyaz}Facebook:{Yeşil}')
+for i in userlist:
+        face_ara(i)
+        
+print('\n')
+print(f'{Beyaz}Diğer Hesaplar:{Yeşil}')
+for i in userlist:
+        ara(i)
