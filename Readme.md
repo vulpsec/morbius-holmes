@@ -9,6 +9,8 @@ git clone https://github.com/morbius-os/morbius-holmes
 
 cd morbius-holmes
 
+cd morbius-holmes
+
 python3 m-holmes-v2.py
 ```
 
